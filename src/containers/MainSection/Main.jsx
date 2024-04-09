@@ -2,6 +2,10 @@ import React from 'react'
 import "./main.css"
 import { MdOutlineWbSunny } from "react-icons/md";
 import { FaTemperatureEmpty } from "react-icons/fa6";
+import { FaWind } from "react-icons/fa";
+import { FaCloudSunRain } from "react-icons/fa";
+
+import { TbUvIndex } from "react-icons/tb";
 
 
 const Main = () => {
@@ -91,7 +95,9 @@ const Main = () => {
 
                         </div>
                         <div className="data">
-                            <p style={{ fontSize: "30px" }}><FaTemperatureEmpty />
+                            <p style={{ fontSize: "30px" }}><FaCloudSunRain />
+
+
                             </p>
                             <div className="stats">
                                 <p>Chance of Rain</p>
@@ -104,7 +110,8 @@ const Main = () => {
                     </div>
                     <div className="right_items">
                         <div className="data">
-                            <p style={{ fontSize: "30px" }}><FaTemperatureEmpty />
+                            <p style={{ fontSize: "30px" }}><FaWind />
+
                             </p>
                             <div className="stats">
                                 <p>Wind</p>
@@ -114,7 +121,8 @@ const Main = () => {
 
                         </div>
                         <div className="data">
-                            <p style={{ fontSize: "30px" }}><FaTemperatureEmpty />
+                            <p style={{ fontSize: "30px" }}><TbUvIndex />
+
                             </p>
                             <div className="stats">
                                 <p>UV Index</p>

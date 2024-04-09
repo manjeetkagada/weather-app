@@ -79,7 +79,7 @@ p {
   width: 100%;
   border-radius: 20px;
   background-color: #202b3b;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   height: 250px;
   padding: 30px;
 }
@@ -121,7 +121,7 @@ p {
 }
 .air_condition {
   display: flex;
-  gap: 40%;
+  gap: 30%;
   padding: 20px;
 }
 .data {
