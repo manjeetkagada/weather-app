@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.weather_app {
+  background-color: #0b131e;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+}
